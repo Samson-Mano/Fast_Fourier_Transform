@@ -1,4 +1,4 @@
-# Fast_Fourier_Transform  <br />
+# Fast Fourier Transform  <br />
 C# implementation of Cooley–Tukey's FFT algorithm. <br />
 Cooley–Tukey's fast Fourier transform (FFT) algorithm is a method for computing the finite Fourier transform of a series of N (complex) data points in approximately
 N log, N operations. FFT operates on inputs that contain an integer power of two number of samples, the input data length will be augmented by zero padding at the end. <br />
