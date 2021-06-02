@@ -1,0 +1,11 @@
+C:\Users\Mighty_Owl\source\repos\Fast_fourier_transform\Fast_fourier_transform\bin\Debug\Fast_fourier_transform.exe.config
+C:\Users\Mighty_Owl\source\repos\Fast_fourier_transform\Fast_fourier_transform\bin\Debug\Fast_fourier_transform.exe
+C:\Users\Mighty_Owl\source\repos\Fast_fourier_transform\Fast_fourier_transform\bin\Debug\Fast_fourier_transform.pdb
+C:\Users\Mighty_Owl\source\repos\Fast_fourier_transform\Fast_fourier_transform\obj\Debug\Fast_fourier_transform.csprojAssemblyReference.cache
+C:\Users\Mighty_Owl\source\repos\Fast_fourier_transform\Fast_fourier_transform\obj\Debug\Fast_fourier_transform.main_form.resources
+C:\Users\Mighty_Owl\source\repos\Fast_fourier_transform\Fast_fourier_transform\obj\Debug\Fast_fourier_transform.Properties.Resources.resources
+C:\Users\Mighty_Owl\source\repos\Fast_fourier_transform\Fast_fourier_transform\obj\Debug\Fast_fourier_transform.csproj.GenerateResource.cache
+C:\Users\Mighty_Owl\source\repos\Fast_fourier_transform\Fast_fourier_transform\obj\Debug\Fast_fourier_transform.exe
+C:\Users\Mighty_Owl\source\repos\Fast_fourier_transform\Fast_fourier_transform\obj\Debug\Fast_fourier_transform.pdb
+C:\Users\Mighty_Owl\source\repos\Fast_fourier_transform\Fast_fourier_transform\obj\Debug\Fast_fourier_transform.chart_option.resources
+C:\Users\Mighty_Owl\source\repos\Fast_fourier_transform\Fast_fourier_transform\obj\Debug\Fast_fourier_transform.chart_view.resources
