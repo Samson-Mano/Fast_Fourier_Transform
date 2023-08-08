@@ -9,3 +9,16 @@ C:\Users\Mighty_Owl\source\repos\Fast_fourier_transform\Fast_fourier_transform\o
 C:\Users\Mighty_Owl\source\repos\Fast_fourier_transform\Fast_fourier_transform\obj\Debug\Fast_fourier_transform.pdb
 C:\Users\Mighty_Owl\source\repos\Fast_fourier_transform\Fast_fourier_transform\obj\Debug\Fast_fourier_transform.chart_option.resources
 C:\Users\Mighty_Owl\source\repos\Fast_fourier_transform\Fast_fourier_transform\obj\Debug\Fast_fourier_transform.chart_view.resources
+Z:\prj\GitHub\Fast_Fourier_Transform\Fast_fourier_transform\Fast_fourier_transform\bin\Debug\Fast_fourier_transform.exe.config
+Z:\prj\GitHub\Fast_Fourier_Transform\Fast_fourier_transform\Fast_fourier_transform\bin\Debug\Fast_fourier_transform.exe
+Z:\prj\GitHub\Fast_Fourier_Transform\Fast_fourier_transform\Fast_fourier_transform\bin\Debug\Fast_fourier_transform.pdb
+Z:\prj\GitHub\Fast_Fourier_Transform\Fast_fourier_transform\Fast_fourier_transform\obj\Debug\Fast_fourier_transform.csproj.AssemblyReference.cache
+Z:\prj\GitHub\Fast_Fourier_Transform\Fast_fourier_transform\Fast_fourier_transform\obj\Debug\Fast_fourier_transform.csproj.SuggestedBindingRedirects.cache
+Z:\prj\GitHub\Fast_Fourier_Transform\Fast_fourier_transform\Fast_fourier_transform\obj\Debug\Fast_fourier_transform.chart_option.resources
+Z:\prj\GitHub\Fast_Fourier_Transform\Fast_fourier_transform\Fast_fourier_transform\obj\Debug\Fast_fourier_transform.chart_view.resources
+Z:\prj\GitHub\Fast_Fourier_Transform\Fast_fourier_transform\Fast_fourier_transform\obj\Debug\Fast_fourier_transform.main_form.resources
+Z:\prj\GitHub\Fast_Fourier_Transform\Fast_fourier_transform\Fast_fourier_transform\obj\Debug\Fast_fourier_transform.Properties.Resources.resources
+Z:\prj\GitHub\Fast_Fourier_Transform\Fast_fourier_transform\Fast_fourier_transform\obj\Debug\Fast_fourier_transform.csproj.GenerateResource.cache
+Z:\prj\GitHub\Fast_Fourier_Transform\Fast_fourier_transform\Fast_fourier_transform\obj\Debug\Fast_fourier_transform.csproj.CoreCompileInputs.cache
+Z:\prj\GitHub\Fast_Fourier_Transform\Fast_fourier_transform\Fast_fourier_transform\obj\Debug\Fast_fourier_transform.exe
+Z:\prj\GitHub\Fast_Fourier_Transform\Fast_fourier_transform\Fast_fourier_transform\obj\Debug\Fast_fourier_transform.pdb
