@@ -157,17 +157,23 @@ namespace Fast_fourier_transform
 
             foreach (DataGridViewRow dr in dataGridView_timedomain.Rows)
             {
-                // Test empty string
-                if (dr.Cells["Column_time"].Value.ToString() == "" || dr.Cells["Column_amplitude"].Value.ToString() == "")
-                    continue;
-
-                // Test the validity of data
-                if (co_functions.Test_a_textboxvalue_validity(dr.Cells["Column_time"].Value.ToString(), false, false) == false || co_functions.Test_a_textboxvalue_validity(dr.Cells["Column_amplitude"].Value.ToString(), false, false) == false)
-                    continue;
-
-                // Add to x_datas, y_datas list
-                x_datas.Add(Convert.ToDouble(dr.Cells["Column_time"].Value));
-                y_datas.Add(Convert.ToDouble(dr.Cells["Column_amplitude"].Value));
+                // Check if the cell and its value are not null or empty
+                if (dr.Cells["Column_time"].Value != null && dr.Cells["Column_amplitude"].Value != null &&
+                    !string.IsNullOrEmpty(dr.Cells["Column_time"].Value.ToString()) && !string.IsNullOrEmpty(dr.Cells["Column_amplitude"].Value.ToString()))
+                {
+                    // Test the validity of data
+                    if (co_functions.Test_a_textboxvalue_validity(dr.Cells["Column_time"].Value.ToString(), false, false) &&
+                        co_functions.Test_a_textboxvalue_validity(dr.Cells["Column_amplitude"].Value.ToString(), false, false))
+                    {
+                        // Add to x_datas, y_datas list
+                        if (double.TryParse(dr.Cells["Column_time"].Value.ToString(), out double timeValue) &&
+                            double.TryParse(dr.Cells["Column_amplitude"].Value.ToString(), out double amplitudeValue))
+                        {
+                            x_datas.Add(timeValue);
+                            y_datas.Add(amplitudeValue);
+                        }
+                    }
+                }
             }
 
             // create chart data series  (unique id number)
@@ -261,17 +267,23 @@ namespace Fast_fourier_transform
 
             foreach (DataGridViewRow dr in dataGridView_timedomain.Rows)
             {
-                // Test empty string
-                if (dr.Cells["Column_time"].Value.ToString() == "" || dr.Cells["Column_amplitude"].Value.ToString() == "")
-                    continue;
-
-                // Test the validity of data
-                if (co_functions.Test_a_textboxvalue_validity(dr.Cells["Column_time"].Value.ToString(), false, false) == false || co_functions.Test_a_textboxvalue_validity(dr.Cells["Column_amplitude"].Value.ToString(), false, false) == false)
-                    continue;
-
-                // Add to x_datas, y_datas list
-                x_datas.Add(Convert.ToDouble(dr.Cells["Column_time"].Value));
-                y_datas.Add(Convert.ToDouble(dr.Cells["Column_amplitude"].Value));
+                // Check if the cell and its value are not null or empty
+                if (dr.Cells["Column_time"].Value != null && dr.Cells["Column_amplitude"].Value != null &&
+                    !string.IsNullOrEmpty(dr.Cells["Column_time"].Value.ToString()) && !string.IsNullOrEmpty(dr.Cells["Column_amplitude"].Value.ToString()))
+                {
+                    // Test the validity of data
+                    if (co_functions.Test_a_textboxvalue_validity(dr.Cells["Column_time"].Value.ToString(), false, false) &&
+                        co_functions.Test_a_textboxvalue_validity(dr.Cells["Column_amplitude"].Value.ToString(), false, false))
+                    {
+                        // Add to x_datas, y_datas list
+                        if (double.TryParse(dr.Cells["Column_time"].Value.ToString(), out double timeValue) &&
+                            double.TryParse(dr.Cells["Column_amplitude"].Value.ToString(), out double amplitudeValue))
+                        {
+                            x_datas.Add(timeValue);
+                            y_datas.Add(amplitudeValue);
+                        }
+                    }
+                }
             }
 
             // Fast Fourier Transform
